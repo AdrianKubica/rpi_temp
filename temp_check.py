@@ -8,7 +8,7 @@ def measure_temp():
 def main():
     start = time.perf_counter()
     while True:
-        print(f'{measure_temp()} after {round(time.perf_counter() - start, 2)} seconds')
+        print(f'{measure_temp()} after {round(time.perf_counter() - start, 2)} sec')
         time.sleep(1)
 
 if __name__ == '__main__':
